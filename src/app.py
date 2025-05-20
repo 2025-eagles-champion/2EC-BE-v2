@@ -33,8 +33,8 @@ class NodeRequest(BaseModel):
     top_n: int = 1
 
 # 파일 경로 설정
-DATA_DIR = "../data"
-ORIGINAL_DATA_PATH = os.path.join(DATA_DIR, "transfers_1613651332000_1615499822000.csv")
+DATA_DIR = "data"
+ORIGINAL_DATA_PATH = os.path.join("..", DATA_DIR, "transfers_1613651332000_1615499822000.csv")
 
 # 데이터 로드 함수
 def load_data():
